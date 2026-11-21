@@ -1,7 +1,15 @@
-export default function App() {
+import Navbar from './components/Navbar/Navbar';
+
+function App() {
   return (
-    <div className="bg-red-500 text-white p-10">
-      TAILWIND TEST
-    </div>
-  )
+    <>
+      <Navbar />
+
+      <main className="pt-16">
+        {/* contenuto dell'app */}
+      </main>
+    </>
+  );
 }
+
+export default App;
